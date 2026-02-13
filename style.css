@@ -81,22 +81,22 @@ header .slogan {
 }
 
 .hero .buttons .btn {
-    background-color: #ffb703;
-    color: #0d3b66;
+    background-color: #3da5d9;
+    color: #fff;
 }
 
 .hero .buttons .btn:hover {
-    background-color: #f9a602;
+    background-color: #1c7cb7;
     transform: translateY(-2px);
 }
 
 .hero .buttons .secondary {
-    background-color: #ffb703;
+    background-color: #3da5d9;
     color: #fff;
 }
 
 .hero .buttons .secondary:hover {
-    background-color: #f9a602;
+    background-color: #1c7cb7;
     transform: translateY(-2px);
 }
 
