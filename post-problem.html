@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>نشر مشكلة - Iraqi Data Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+    <h1>Iraqi Data Lab</h1>
+    <p class="slogan">نشر مشكلة جديدة</p>
+</header>
+
+<section class="dashboard">
+
+    <h2>نشر تحدي جديد</h2>
+    <p>
+        املأ البيانات أدناه لتطرح مشكلتك أمام محللي البيانات الشباب.
+    </p>
+
+    <form class="problem-form">
+
+        <label for="title">عنوان المشكلة:</label>
+        <input type="text" id="title" name="title" placeholder="أدخل عنوان المشكلة">
+
+        <label for="description">وصف المشكلة:</label>
+        <textarea id="description" name="description" placeholder="اشرح المشكلة بشكل واضح"></textarea>
+
+        <label for="type">نوع المشكلة:</label>
+        <select id="type" name="type">
+            <option value="تجارية">تجارية</option>
+            <option value="تعليمية">تعليمية</option>
+            <option value="خدمية">خدمية</option>
+        </select>
+
+        <label for="dataset">رفع ملف بيانات (اختياري):</label>
+        <input type="file" id="dataset" name="dataset">
+
+        <button type="submit" class="btn">نشر المشكلة</button>
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Iraqi Data Lab</p>
+</footer>
+
+</body>
+</html>
