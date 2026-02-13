@@ -1,3 +1,4 @@
+
 /* =============================
    Iraqi Data Lab - CSS
    تصميم حديث ومريح للعين
@@ -17,7 +18,6 @@ body {
     line-height: 1.6;
 }
 
-/* روابط بدون تزيين */
 a {
     text-decoration: none;
     color: inherit;
@@ -27,7 +27,7 @@ a {
    Header
 ============================= */
 header {
-    background-color: #0d3b66; /* أزرق داكن */
+    background-color: #0d3b66;
     color: #fff;
     text-align: center;
     padding: 1.5rem 1rem;
@@ -45,7 +45,7 @@ header .slogan {
     font-weight: 400;
     font-size: 1rem;
     margin-top: 0.3rem;
-    color: #d9f0ff; /* أزرق فاتح */
+    color: #d9f0ff;
 }
 
 /* =============================
@@ -81,7 +81,7 @@ header .slogan {
 }
 
 .hero .buttons .btn {
-    background-color: #ffb703; /* أصفر مشرق */
+    background-color: #ffb703;
     color: #0d3b66;
 }
 
@@ -293,16 +293,8 @@ footer {
 }
 
 /* =============================
-   Responsive
+   Modal & Notification
 ============================= */
-@media (max-width: 768px) {
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/* Modal */
 .modal {
     position: fixed;
     top:0; left:0; width:100%; height:100%;
@@ -327,7 +319,6 @@ footer {
     cursor: pointer;
 }
 
-/* Notification */
 .notification {
     position: fixed;
     bottom: 20px;
@@ -347,4 +338,14 @@ footer {
 .notification.fade-out {
     opacity: 0;
     transform: translateX(-50%) translateY(-20px);
+}
+
+/* =============================
+   Responsive
+============================= */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
 }
